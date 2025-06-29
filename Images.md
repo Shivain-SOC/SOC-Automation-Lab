@@ -69,19 +69,17 @@ Automatically created alert → case in TheHive.
 
 ---
 
-### 🧪 Sandbox via SquareX
-
-Analyzed phishing URLs safely with SquareX browser.
-
-![SquareX Analysis](images/squarex-analysis.png)
-
----
 
 ### 🛑 Active Response
 
 After analyst approval, source IP blocked automatically using Wazuh active response.
 
-![Active Response](images/active-response.png)
+![image](https://github.com/user-attachments/assets/e8b98fc1-871e-411b-b812-1c0f149fcb6a)
+
+![image](https://github.com/user-attachments/assets/c37ef8d6-cd5d-46c8-bcf2-5e2fc54d6f6b)
+
+![image](https://github.com/user-attachments/assets/fdd65875-3ce1-49d1-9704-f9bd8b52d53b)
+
 
 ---
 
