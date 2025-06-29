@@ -6,7 +6,8 @@ An end-to-end SOC automation pipeline using Wazuh, Shuffle (SOAR), TheHive (Case
 
 ## 📍 Architecture Overview
 
-![Architecture Diagram](images/architecture-overview.png)
+![image](https://github.com/user-attachments/assets/2896b434-dcdd-4263-81eb-244657043d90)
+
 
 ---
 
