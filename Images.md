@@ -17,7 +17,6 @@ An end-to-end SOC automation pipeline using Wazuh, Shuffle (SOAR), TheHive (Case
 - **Shuffle** – SOAR platform
 - **TheHive** – Case management
 - **VirusTotal API** – Threat intelligence
-- **SquareX** – Isolated browser analysis
 
 ---
 
@@ -27,7 +26,10 @@ An end-to-end SOC automation pipeline using Wazuh, Shuffle (SOAR), TheHive (Case
 
 Mimikatz detection configured in Wazuh rules → triggers alert.
 
-![Wazuh Alert](images/alert-detection.png)
+![image](https://github.com/user-attachments/assets/02b8ba26-6707-40ea-af4b-7becfb4de7b8)
+
+---
+![image](https://github.com/user-attachments/assets/87f8ebb9-343a-4005-a2f5-0b9aaeef5643)
 
 ---
 
@@ -35,7 +37,8 @@ Mimikatz detection configured in Wazuh rules → triggers alert.
 
 Configured webhook in Shuffle to receive Wazuh alerts.
 
-![Shuffle Webhook](images/shuffle-workflow.png)
+![image](https://github.com/user-attachments/assets/4cccedb1-8c90-442d-846d-0ad72b81b7c4)
+
 
 ---
 
@@ -43,7 +46,15 @@ Configured webhook in Shuffle to receive Wazuh alerts.
 
 Extracted hash from alert using Rex + sent to VirusTotal API.
 
-![VirusTotal Result](images/virus-total-response.png)
+![image](https://github.com/user-attachments/assets/bbd54325-fc21-4415-b36a-99f1f15927fe)
+
+---
+
+![image](https://github.com/user-attachments/assets/a9df37b6-d7ca-4c79-a67f-48ae486725ce)
+
+---
+
+![image](https://github.com/user-attachments/assets/24253e32-5bf8-4291-9b03-41c723f522aa)
 
 ---
 
@@ -51,7 +62,10 @@ Extracted hash from alert using Rex + sent to VirusTotal API.
 
 Automatically created alert → case in TheHive.
 
-![TheHive Case](images/thehive-case.png)
+![image](https://github.com/user-attachments/assets/94dfbe92-bc1e-4436-afdb-d364c03d202d)
+
+---
+![image](https://github.com/user-attachments/assets/3d1205c3-06ad-4097-83e2-3e472b4d2d67)
 
 ---
 
